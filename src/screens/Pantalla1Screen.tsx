@@ -9,7 +9,7 @@ type Props = DrawerScreenProps<RootDrawerParams, 'Pantalla1Screen'>;
 export const Pantalla1Screen = ({ navigation }: Props) => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Bienvenid@s</Text>
+      <Text style={styles.title}>Bienvenidos</Text>
       <Text style={styles.subtitle}>^^</Text>
       <Image
         source={require('../img/logo2.png')}
