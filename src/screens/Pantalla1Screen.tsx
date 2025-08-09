@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, Image, TouchableOpacity, SafeAreaView, StyleSheet } from 'react-native';
 import { DrawerScreenProps } from '@react-navigation/drawer';
-import { RootDrawerParams } from '../navigator/DrawerPersonalizado';
+import { RootDrawerParams } from '../navigator/StacNavigator';
 import { styles } from '../theme/appTheme';
 
 type Props = DrawerScreenProps<RootDrawerParams, 'Pantalla1Screen'>;

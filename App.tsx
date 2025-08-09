@@ -1,7 +1,7 @@
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import { DrawerPersonalizado } from './src/navigator/DrawerPersonalizado';
+import { DrawerPersonalizado } from './src/navigator/StacNavigator';
 
 export const App = () => {
   return (
